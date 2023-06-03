@@ -1,0 +1,137 @@
+<!-- Сторінка ПРО НАС -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230521012119">
+    <title>Головна</title>
+</head>
+<body>
+    <!-- Клас обгортка для сайту -->
+    <div class="wrapper">
+        <!-- Шапка сайту -->
+        <header class="header">
+            <div class="header__container">
+                <div class="header__navbar">
+                    <a href="/" class="logo">MNTN</a>
+                    <ul class="header__nav">
+                        <li class="header__element">
+                        <a href="/">Головна</a>
+                        </li>
+                        <li class="header__element">
+                        <a href="/about">Про нас</a>
+                        </li>
+                        <li class="header__element">
+                        <a href="/form">Замовити тур</a>
+                        </li>
+                    </ul>
+                    <div class="account">
+                        <a href="/auth" id="usernameLink"><img src="img/home/user.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Секція Про нас -->
+        <main class="about"> 
+            <div class="about__container">
+                <div class="about__body">
+                    <!-- Елементи даної секції -->
+                    <div class="about__elements">
+                        <div class="about__element element-about">
+                            <!-- Зображення -->
+                            <picture class="element-about__img"><source srcset="img/about/01.webp" type="image/webp"><img src="img/about/01.jpg" alt=""></picture>
+                            <!-- Текстблок секції -->
+                            <div class="element-about__content">
+                                <h2 class="about__title">Чому саме ми ?</h2>
+                                <p class="element-about__text">Ми - команда професіоналів, яка пропонує незабутні гірські подорожі по Україні. Наш досвід у галузі гірського туризму дозволяє нам забезпечити вам найвищу якість та безпеку під час вашої пригоди в горах.
+                                    <br><br>
+                                    Наша мета - зробити вашу подорож незабутньою та комфортною. Ми пропонуємо унікальні маршрути, які охоплюють найкрасивіші гірські пейзажі та природні визначні місця. Ви зможете насолодитися красою українських гір та відкрити для себе нові горизонти.
+                                    <br><br>
+                                    Наша команда пильно стежить за всіма деталями вашої подорожі, починаючи з зустрічі в аеропорту і закінчуючи проживанням та харчуванням. Ми дбаємо про ваш комфорт, щоб ви могли насолоджуватися кожною миттю вашої гірської пригоди.
+                                    <br><br>
+                                    Якщо ви шукаєте незабутні враження, професійний сервіс та надійних партнерів для вашої гірської подорожі, обирайте нас. Ми гарантуємо, що ваша подорож буде повна пригод та позитивних емоцій.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="about__element element-about">
+                            <picture class="element-about__img"><source srcset="img/about/02.webp" type="image/webp"><img src="img/about/02.jpg" alt=""></picture>
+                            <div class="element-about__content">
+                                <h2 class="about__title">Наші тури</h2>
+                                <p class="element-about__text">Усі наші тури включають професійних гідів, які забезпечують вашу безпеку та комфорт під час подорожі. Ви будете мати можливість насолодитися захоплюючими краєвидами гір та відвідати найкрасивіші місця. Перед початком туру гід проведе коротку орієнтацію та надасть всю необхідну інформацію щодо маршруту, тривалості та особливостей подорожі. Ми рекомендуємо брати з собою зручне взуття, одяг, відповідний погодним умовам, та особисті речі для особистої гігієни та комфорту.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Таблиця із турами -->
+                    <table class="about__table">
+                        <thead>
+                          <tr>
+                            <th>№</th>
+                            <th>Назва маршруту</th>
+                            <th>Тривалість</th>
+                            <th>Висота</th>
+                            <th>Відстань</th>
+                            <th>Вартість</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>Карпати</td>
+                            <td>3 дні</td>
+                            <td>1200 м</td>
+                            <td>10 км</td>
+                            <td>3500 грн</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>Гори Горган</td>
+                            <td>4 дні</td>
+                            <td>800 м</td>
+                            <td>8 км</td>
+                            <td>2800 грн</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>Бескиди</td>
+                            <td>2 дні</td>
+                            <td>900 м</td>
+                            <td>6 км</td>
+                            <td>2500 грн</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        <main/>
+        <!-- Підвал сайту -->
+         <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__body">
+                    <div class="footer__column">
+                        <a href="/" class="logo footer__logo">MNTN</a>
+                        <p class="footer__text  ">Вирушайте туди та відкрийте для себе наступний схил, гору та пункт призначення!</p>
+                        <p class="footer__copyright">Copyright 2023 MNTN, Inc. Умови та конфіденційність</p>
+                    </div>
+                    <div class="footer__list">
+                        
+                        <li class="footer__item">
+                            <a class="footer__link" href="/about">Про нас</a>
+                        </li>
+
+                        <li class="footer__item">
+                            <a class="footer__link" href="/form">Замовити</a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Підключаємо скрипти -->
+    <script src="./app.min.js?_v=20230521012119"></script>
+</body>
+</html>

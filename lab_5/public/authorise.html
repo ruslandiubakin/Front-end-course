@@ -1,0 +1,40 @@
+<!-- Сторінка для входу на сайт. Тут буде реалізована логіка входу на сайт за паролем та логіном-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="css/style.min.css?_v=20230521012119">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="auth__conteiner">
+            <div class="auth__card">
+                <h3 class="auth__title">Увійти</h3>
+                <!-- Ввід логіну -->
+                <div class="auth__inputBox">
+                    <input id="log" type="text" required ="required">
+                    <span> Логін </span>
+                </div>
+                <!-- Ввід паролю -->
+                <div class="auth__inputBox auth__email">
+                    <input id="psw" type="password" required ="required">
+                    <span> Пароль </span>
+                </div>
+                <!-- Кнопка підтвердити -->
+                <div class="auth__buttons">
+                    <input type="submit" id="enter" value="Enter"/>
+                </div>
+    
+                <!-- Повідомлення хибного паролю -->
+                <div class="auth__message"></div>
+    
+            </div>
+        </div>  
+    </div>
+    <script defer src="./app.min.js"></script>
+</body>
+</html>
